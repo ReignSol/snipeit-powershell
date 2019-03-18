@@ -12,7 +12,7 @@ From a domain controller as a GPO, Asset-Create.ps1 can be assigned to run on an
                         
                         
                         
-                        
+##################################################################################
                         
                         Merge all csv files into single csv
 
@@ -22,4 +22,4 @@ $CSVFolder = THE FOLDER WHERE THE INDIVIDUAL ASSET CSV'S ARE.
 
 $OutputFile = LOCATION OF MERGED CSV FILE
 
-
+###################################################################################
