@@ -16,10 +16,10 @@ From a domain controller as a GPO, Asset-Create.ps1 can be assigned to run on an
                         
                         Merge all csv files into single csv
 
-        Use mergeCSV.ps1 with look for csv's that are older than 1 day and archive them, into a folder named "archive" to merge all csv files into single csv to import. 
+MergeCSV.ps1 will look for csv's that are older than 1 day and archive them, into a folder named "archive"
 
 $CSVFolder = THE FOLDER WHERE THE INDIVIDUAL ASSET CSV'S ARE. 
+
 $OutputFile = LOCATION OF MERGED CSV FILE
 
-MergeCSV.ps1 with look for csv's that are older than 1 day and archive them, into a folder named "archive"
 
